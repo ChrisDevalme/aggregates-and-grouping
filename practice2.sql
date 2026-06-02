@@ -1,13 +1,13 @@
 -- Question 1:
-Select count(*) 
+Select count(*) AS SupplierCount
 from northwind.Suppliers;
 
 -- Question 2:
-SELECT sum(round(Salary)) 
+SELECT sum(round(Salary)) AS TotalSalary
 FROM northwind.Employees;
 
 -- Question 3:
-SELECT min(UnitPrice) 
+SELECT min(UnitPrice) As CheapestPrice
 FROM northwind.Products;
 
 -- Question 4:
